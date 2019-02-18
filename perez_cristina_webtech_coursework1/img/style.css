@@ -1,0 +1,34 @@
+
+body{
+	background-color:#FFB77B;
+}
+
+h1{
+				text-align:center;
+				padding-top:5%;
+				padding-bottom:40px;
+				font-family: 'Fontdiner Swanky', cursive;
+				color:brown;
+			}
+
+			p{
+				
+				text-align:center;
+				font-family: 'Crafty Girls', cursive;
+				font-size:1.5em;
+				letter-spacing:-0.5px;
+			}
+
+			h3{
+				padding:30px 250px 0px 150px;
+				font-family: 'Fontdiner Swanky', cursive;	
+				font-size:-0.5em;
+			}
+
+textarea {
+	
+border :1 px solid #999999;
+width :90%;
+margin :5 px 0;
+
+}
