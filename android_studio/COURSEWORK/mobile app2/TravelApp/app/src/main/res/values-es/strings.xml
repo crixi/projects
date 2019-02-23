@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Whiskey us</string>
+    <string name="LandmarksTitle">Canadian Landmarks</string>
+    <string name="Beginners_name">Pack 1 Beginners</string>
+    <string name="Beginners_info"> \n\n - Introduccion al proceso de destilacion del whiskey. \n\n - Dos whiskeys a su eleccion.\n\n  $12 \n\n</string>
+    <string name="Grownups_name">Pack 2 Segunda ronda</string>
+    <string name="Grownups_info">\n\n - Introduccion al proceso de destilacion del whiskey: \n\n blended y single malt whiskey. \n\n - Dos whiskeys: \n\n Uno single malt a su eleccion. \n\n Uno blended de Lindores Abbey.\n\n $15 \n\n</string>
+    <string name="Ilikewhiskey_name">Pack 3 Me gusta el whiskey</string>
+    <string name="Ilikewhiskey_info">\n\n - Historia de la destilacion del whiskey. Origins. \n\n - Cinco whiskeys para recorrer Escocia.\n\n $25\n\n </string>
+    <string name="Whiskeypassion_name">Pack 4 Whiskey passion</string>
+    <string name="Whiskeypassion_info">\n\n - Introduccion a la gastronomia.\n\n Whiskey y pequenos snacks.\n\n - Cinco whiskeys para recorrer Escocia. \n\n - Pequena tapa de haggis escoces.\n\n - $38 \n\n</string>
+    <string name="Connaisseurs_name">Pack 5 Connaisseur</string>
+    <string name="Connaisseurs_info">\n\n - Whiskey y queso. \n\n\ El arte de la combinacion.\n\n - Cinco whiskeys para recorrer Escocia.\n\n - Cinco variantes the queso escoces.\n\n $45\n\n </string>
+
+</resources>

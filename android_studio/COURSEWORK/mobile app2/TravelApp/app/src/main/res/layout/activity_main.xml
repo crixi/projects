@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/titelTextView"
+        android:layout_width="fill_parent"
+        android:layout_height="28dp"
+        android:gravity="center_horizontal"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <ImageView
+        android:id="@+id/flagImageView"
+        android:layout_width="fill_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/logo" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/attractions_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/flagImageView"
+        android:scrollbars="vertical"
+        app:layout_constraintTop_toBottomOf="@+id/flagImageView" />
+
+</LinearLayout>
