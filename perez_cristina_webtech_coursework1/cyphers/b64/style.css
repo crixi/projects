@@ -1,0 +1,60 @@
+
+body{
+	background-color:#FFB77B;
+}
+
+h1{
+	text-align:center;
+	padding-top:5%;
+	padding-bottom:40px;
+	font-family: 'Fontdiner Swanky', cursive;
+	color:brown;								
+}
+
+			p{
+				
+				text-align:center;
+				font-family: 'Crafty Girls', cursive;
+				font-size:1.5em;
+				letter-spacing:-0.5px;
+			}
+
+			h3{
+				padding:30px 250px 0px 150px;
+				font-family: 'Fontdiner Swanky', cursive;	
+				font-size:-0.5em;
+			}
+
+
+.paragraph{
+	width:75%;
+	height:auto;
+	margin:0 auto;
+}
+
+.input_area{
+	background-image:url("../img/base64.png");	
+	height:500px;
+	width:90%;
+	margin:0 auto;
+	background-position:center;
+	background-size:cover;
+}
+
+.text_area{
+	position:relative;
+	top:50%;
+	left:20%;
+}
+
+textarea{
+	width:60%;
+	align:center;
+	
+}
+button{
+	height:60px;
+	width:auto;
+	border:solid black 2px;
+	border-radius:25%;
+}

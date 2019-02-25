@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	
+	<head>
+		<link rel="stylesheet" href="style.css" type="text/css"/>
+		<link href="https://fonts.googleapis.com/css?family=Crafty+Girls|Fontdiner+Swanky" rel="stylesheet">		
+		<title> Encoding secrets </title>
+		
+	</head>
+	<body>
+					
+		<h1>ROT13 Caesar Encoder </h1>
+		<p style="font-weight:bold;"> About ROT13 ... </p>
+		<div class="paragraph">
+			<p>ROT13 ("rotate by 13 places", sometimes hyphenated ROT-13) is a simple letter substitution cipher that replaces a letter with the 13th letter after it, in the alphabet. ROT13 is a special case of the Caesar cipher which was developed in ancient Rome. ROT13 is attributed to Julius Caesar in the 1st century BC.</p>
+		</div>
+		<br>
+		<div class ="input_area">
+			<div class="text_area">
+				<textarea rows ="1" cols ="50" autofocus id ="message" style="height:40px;font-size:1.4em">Type your sooper sekret message here</textarea>
+				<br>
+				<br>
+				<button type ="button" onclick ="encode()" id ="encode_button"> 
+					<p style="font-size:1.4em;font-weight:bold";>Encodify everything </p>
+				</button >
+				<button type ="button" onclick ="decode()" id ="decode_button"> 
+					<p style="font-size:1.4em;font-weight:bold";>DECODE </p>
+				</button >
+			</div>
+		</div>
+
+		<script type=" text/javascript" src ="rot13.js"></script>	
+	</body>
+</html>
