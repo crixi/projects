@@ -1,6 +1,13 @@
 
 body{
-	background-color:#FFB77B;
+	background-image:url("../img/background.jpg");
+	background-size:auto;
+}
+.ground{
+	width:90%;
+	height:auto;
+	background-color: #FFCBA1;
+	margin:0 auto;
 }
 
 h1{
@@ -34,7 +41,7 @@ h1{
 
 .input_area{
 	background-image:url("../img/base64.png");	
-	height:500px;
+	height:300px;
 	width:90%;
 	margin:0 auto;
 	background-position:center;
@@ -43,8 +50,8 @@ h1{
 
 .text_area{
 	position:relative;
-	top:50%;
-	left:20%;
+	top:40%;
+	left:5%;
 }
 
 textarea{

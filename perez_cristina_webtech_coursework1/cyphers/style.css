@@ -1,6 +1,8 @@
 
 body{
-	background-color:#FFB77B;	
+	background-image:url("img/background.jpg");	
+	background-repeat:no-repeat;
+	background-size:cover;
 }
 
 .about{
@@ -9,7 +11,7 @@ body{
 	margin:0 auto;
 	background-color:#FFCBA1;
 	border:#FFE2C9 6px;
-	border-style:none dashed;
+	border-style:solid;
 	border-color:brown;
 	border-radius:35px;
 	padding:2% 5%;
@@ -22,6 +24,8 @@ h1{
 	font-family: 'Fontdiner Swanky', cursive;
 	font-size:3.5em;
 	color:brown;
+	text-shadow:5px 5px 10px 5px white;
+	
 }
 
 
