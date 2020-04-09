@@ -1,0 +1,93 @@
+
+
+ 
+body {
+  padding-top: 54px;
+
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+nav {
+  font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+}
+.navbar-brand{
+	font-family:'Audiowide', cursive;
+	font-size:2rem;
+}
+.nav-item{
+	padding:0 15px;
+	font-size:1.2rem;
+}
+
+
+.section-body{
+	padding:80px 150px 0 150px;
+	color:black;
+
+}
+
+.gallery{
+		padding:50px 150px 0 150px;
+
+}
+
+.container-text h5 em{
+	font-family: 'Audiowide', cursive;
+
+}
+.container-text p{
+	font-family:'Changa', sans-serif;
+	font-size:1.2rem;
+	padding:40px 140px;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.col-lg-4{
+	padding:50px 0 0 150px;
+	font-size:1.5rem;
+	
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+	flex:25%;
+  max-width: 25%;
+    padding: 0 4px;	
+
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  display:0 auto;
+}
+
+.overlay{
+position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+
+.container:hover.overlay{
+	opacity:1;
+}
+
+	
+	
+	

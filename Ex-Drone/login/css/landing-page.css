@@ -1,0 +1,25 @@
+
+nav {
+  font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+}
+
+.nav-item{
+	padding:0 15px;
+	font-size:1.2rem;
+}
+
+.navbar-brand{
+	font-family:'Audiowide', cursive;
+	font-size:2rem;
+}
+
+.masthead{
+	background-image:url("digits.png");	
+	display:block;
+	height:750px;
+	background-repeat:no-repeat;
+	background-size:100%;
+	width:100%;
+	opacity:0.8;
+}
+
